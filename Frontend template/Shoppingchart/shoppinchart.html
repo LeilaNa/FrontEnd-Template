@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="shoppingchart.css">
+    <title>Document</title>
+</head>
+<body>
+
+
+
+    <div class="mainDiv">
+            <div class="buttonup">
+                    <a href="#emporium" id="emporioum"> <i class="fas fa-arrow-up"></i></a>
+         </div>
+         <!-- responsive side bar -->
+         <div class="side-navbar">
+             <div class="nav-header d-flex flex-row-reverse">
+                 <i style="color:red; font-size:25px" class="close fas fa-times"></i>
+             </div>
+             <hr>
+             <ul style="list-style: none">
+                 <li class="home">
+                     <a href="">HOME</a>
+                 </li>
+                 <li><a href="" class=" fashion">FASHION <i class="fas fa-caret-down"></i></a></li>
+                 <ul class="fashionlinks  allinksmain">
+                     <li><a class="women" href="">WOMEN <i class="fas fa-caret-down"></i></a>
+                         <ul class="womenlinks alllinks">
+                             <li><a href="">DRESSES & SKIRTS</a></li>
+                             <li><a href="">JACKETS</a></li>
+                             <li><a href="">TOPS & BLOUSES</a></li>
+                             <li><a href="">SHOES & BOOTS</a></li>
+                             <li><a href="">KNITWEAR</a></li>
+                         </ul>
+                     </li>
+                     <li><a class="man" href="">MEN <i class="fas fa-caret-down"></i></a>
+                         <ul class="manlinks alllinks">
+                             <li><a href="">T-shirts & Polos</a></li>
+                             <li><a href=""> Shoe & Boots</a></li>
+                             <li><a href="">Jeans</a></li>
+                             <li><a href=""> Coats</a></li>
+                         </ul>
+                     </li>
+                     <li><a class="kids" href="">KIDS <i class="fas fa-caret-down"></i></a>
+                         <ul class="kidslinks alllinks">
+                             <li><a href="">TOP</a></li>
+                             <li><a href="">PANTS & SHORTS</a></li>
+                             <li><a href=""> DRESSES</a></li>
+                             <li><a href="">SKIRTS</a></li>
+                             <li><a href="">SET & BODY</a></li>
+                         </ul>
+                     </li>
+                     <li><a class="accessories" href="">ACCESSORIES <i class="fas fa-caret-down"></i></a>
+                         <ul class="accessorieslinks alllinks">
+                             <li><a href="">WATCHES</a></li>
+                             <li><a href="">BAGS & WALLET</a></li>
+                             <li><a href="">SUNGLASSES</a></li>
+                             <li><a href="">BELT & HATS</a></li>
+                         </ul>
+                     </li>
+                 </ul>
+                 <li><a href="">JEWELLERY</a></li>
+                 <li><a href="">ELECTRONICS</a></li>
+                 <li><a href="">SPORTS</a></li>
+                 <li><a href="">MOTORS</a></li>
+                 <li><a class=" pages" href="">PAGES <i class="fas fa-caret-down"></i></a></li>
+                 <ul class="   allinksmain pageslinks">
+                     <li><a href="">ALL PRODUCTS</a></li>
+                     <li><a href="">PRODUCT DETAIL</a></li>
+                     <li><a href="">SIGN IN</a></li>
+                     <li><a href="">404 ERROR</a></li>
+                 </ul>
+                 <li><a href="">CONTACT</a></li>
+                 <li> <a class=" level" href="">LEVEL1 <i class="fas fa-caret-down"></i></a></li>
+                 <ul class="levellink  allinksmain">
+                     <li><a href="">Level2</a></li>
+                 </ul>
+                 <li><a href="">EXTERNAL LINK</a> </li>
+             </ul>
+             <hr>
+ 
+             <div class="sidelogos d-flex justify-content-around">
+                 <i class="fab fa-facebook-square"></i>
+                 <i class="fab fa-twitter-square"></i>
+                 <i class="fab fa-google-plus-square"></i>
+             </div>
+         </div>
+         <div class="all">
+                     <!-- navigation bar -->
+            <div class="heading">
+                    <div class="header">
+                        <div class="container">
+                            <nav class="navbar navbar-expand">
+                                <ul class="navbar-nav">
+                                    <div class="navtexts">
+                                        <span class="navbar-text">
+                                            <button type="button" class="btn btn-demo responive-tabmenu">
+    
+                                                <i class="fas fa-bars"></i>
+                                            </button> </span>
+                                        <span class="navbar-text"> <i class="fas fa-phone"></i>
+                                            <span>Hotline: (+100) 123 456 7890 </span> </span>
+    
+                                        <span class="navbar-text welcome">
+                                            <p> Welcome to our market! </p>
+                                        </span>
+                                    </div>
+                                    <ul>
+                                    
+                                        <li class="nav-item dropdown"><a href="" class="usdeuro nav-link dropdown-toggle"
+                                                data-toggle="dropdown">USD</a>
+                                            <div class="dropdown-menu ">
+                                                <a class="dropdown-item moneyy" href="#">USD</a>
+                                                <a class="dropdown-item moneyy" href="#">EUR</a>
+                                            </div>
+                                        </li>
+                                     
+                                         <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle mainlang"
+                                                data-toggle="dropdown">
+                                                <img src="../home/img/flags/english.png" alt=""> <span class="welcome">
+                                                    ENGLISH
+                                                </span>
+                                            </a>
+                                            <div class="dropdown-menu  language">
+                                                <a class="dropdown-item lng" href="#english">
+                                                    <img src="../home/img/flags/english.png" alt=""> <span  class=""> English</span>
+                                                   </a>
+                                                <a class="dropdown-item lng" href="#russian">
+                                                    <img src="../home/img/flags/russian.svg" alt=""> <span  class="">  Russian</span>
+                                                  </a>
+                                                <a class="dropdown-item lng" href="#french">
+                                                    <img src="../home/img/flags/french.png" alt=""> <span  class=""> French</span>
+                                                   </a>
+                                                <a class="dropdown-item lng" href="#german">
+                                                    <img src="../home/img/flags/german.png" alt=""><span  class=""> German</span>
+                                                    </a>
+                                                <a class="dropdown-item lng" href="#turkish">
+                                                    <img src="../home/img/flags/turkish.png" alt=""> <span  class="">Turkish</span>
+                                                     </a>
+                                            </div>
+    
+                                        </li>
+                                        <li class="nav-item"><a href="" class="nav-link welcome">
+                                            COMPARE(0)
+                                        </a></li>
+                                        <li class="nav-item"><a href="" class="nav-link welcome">WISHLIST(0)</a></li>
+                                        <li class="nav-item dropdown  account"><a href="" class="nav-link dropdown-toggle"
+                                                data-toggle="dropdown">
+                                                <i class="fas fa-user-alt"></i> <span class="welcome"> ACCOUNT </span> </a>
+    
+    
+                                            <div class="dropdown-menu accountmenu dropdown-menu-right">
+                                                <a class="dropdown-item d-flex flex-row" href="#">
+                                                    <img src="../home/img/user/user.jpg" alt="">
+                                                    <div class="d-flex flex-column">
+                                                        <h6>Emilio Verdines</h6>
+                                                        <p>emilio_v(152 <i class="fas fa-star"></i>)</p>
+                                                    </div>
+                                                </a>
+                                                <div class="dropdown-divider"></div>
+                                                <a class="dropdown-item" href="#">
+                                                    <i class="fas fa-cog"></i>Settings</a>
+    
+                                                <a href="" class="dropdown-item compare">
+                                                    <i class="far fa-file-archive"></i> Compare(0)
+                                                </a>
+                                                <a href="" class="dropdown-item compare">
+                                                    <i class="fas fa-heart"></i> Wishlist(0)
+                                                </a>
+                                                <a class="dropdown-item" href="#">
+                                                    <i class="fas fa-lock"></i> Lock screen</a>
+                                                <a class="dropdown-item" href="#">
+                                                    <i class="fas fa-question-circle"></i>Help</a>
+                                                <div class="dropdown-divider"></div>
+                                                <a class="dropdown-item" href="#">
+                                                    <i class="fas fa-power-off"></i> Sign out</a>
+                                            </div>
+    
+    
+                                        </li>
+                                    </ul>
+                                </ul>
+                            </nav>
+    
+                            <div class="search ">
+                                <a href="" id="emporium">EMPORIUM</a>
+                                <div class="btn-group searchh searchcategories">
+    
+                                    <div class="dropdown">
+                                        <button class="dropdown-toggle buttonsearch" type="button" data-toggle="dropdown">
+                                            All categories <span class="caret"></span>
+    
+                                            <div class="dropdown-menu scrollable-menu" role="menu">
+    
+                                                <a href="" class="dropdown-item">All categories</a>
+                                                <a href="" class="dropdown-item">Fashion</a>
+                                                <div class="dropright">
+    
+                                                    <a href="" class="dropdown-item">Women</a>
+                                                    <a href="" class="dropdown-item">Dresses&Skirts</a>
+                                                    <a href="" class="dropdown-item">Jackets</a>
+                                                    <a href="" class="dropdown-item">Tops&Blouses</a>
+                                                    <a href="" class="dropdown-item">Shoes&Boots</a>
+                                                    <a href="" class="dropdown-item">Knitwear</a>
+    
+                                                </div>
+    
+                                                <a href="" class="dropdown-item">Men</a>
+                                                <div class="dropright">
+                                                    <a href="" class="dropdown-item">T-shirts&Polos</a>
+                                                    <a href="" class="dropdown-item">Shoes&Boots</a>
+                                                    <a href="" class="dropdown-item">Jeans</a>
+                                                    <a href="" class="dropdown-item">Coats</a>
+                                                </div>
+    
+                                                <a href="" class="dropdown-item">Kids</a>
+                                                <div class="dropright">
+                                                    <a href="" class="dropdown-item">Top</a>
+                                                    <a href="" class="dropdown-item">Pants&Shorts</a>
+                                                    <a href="" class="dropdown-item">Dresses</a>
+                                                    <a href="" class="dropdown-item">Skirts</a>
+                                                    <a href="" class="dropdown-item">Set&Body</a>
+                                                </div>
+                                                <a href="" class="dropdown-item">Accessories</a>
+    
+                                                <div class="dropright">
+                                                    <a href="" class="dropdown-item">Watches</a>
+                                                    <a href="" class="dropdown-item">Bags&Wallet</a>
+                                                    <a href="" class="dropdown-item">Sunglasses</a>
+                                                    <a href="" class="dropdown-item">Belts&Hats</a>
+                                                </div>
+                                                <a href="" class="dropdown-item">Electronics</a>
+                                                <a href="" class="dropdown-item">Jewellery</a>
+                                                <a href="" class="dropdown-item">Sports</a>
+                                                <a href="" class="dropdown-item">Motors</a>
+                                            </div>
+                                        </button>
+                                    </div>
+                                    <input type="text" class="inputt" name="" id="" placeholder="Type to search..">
+                                    <button type="button" class="search-icon"><i class="fas fa-search"></i></button>
+                                </div>
+                                <div class="dropdown shoppingchart">
+                                    <button class="btn dropdown-toggle " data-toggle="dropdown">
+                                        <i class="fas fa-shopping-cart"></i> Shopping chart <span class="caret"></span></button>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown-item d-flex flex-row justify-content-between">
+                                            <p>
+                                                0 item
+                                            </p>
+                                            <a href="../Shoppingchart/shoppinchart.html" style="color:black; text-decoration:black !important">View chart</a>
+                                        </li>
+                                        <li class="divider"></li>
+                                        <li class="dropdown-item">
+                                            <p style="color:gray;font-size:12px ">You have no items in shopping chart</p>
+                                        </li>
+                                    </ul>
+    
+                                </div>
+    
+                                <div class="responsive-search">
+                                    <button style="background: transparent" class="btnsearch buttonsearch"><i style="font-size: 30px;color: white"
+                                            class="fas fa-search"></i>
+                                    </button>
+                                    <div class="btn-group searchcategories res-search">
+                                        <div class="dropdown">
+                                            <button class="dropdown-toggle buttonsearch" type="button" data-toggle="dropdown">
+                                                All categories <span class="caret"></span>
+    
+                                                <div class="dropdown-menu scrollable-menu" role="menu">
+    
+                                                    <a href="" class="dropdown-item">All categories</a>
+                                                    <a href="" class="dropdown-item">Fashion</a>
+                                                    <div class="dropright">
+    
+                                                        <a href="" class="dropdown-item">Women</a>
+                                                        <a href="" class="dropdown-item">Dresses&Skirts</a>
+                                                        <a href="" class="dropdown-item">Jackets</a>
+                                                        <a href="" class="dropdown-item">Tops&Blouses</a>
+                                                        <a href="" class="dropdown-item">Shoes&Boots</a>
+                                                        <a href="" class="dropdown-item">Knitwear</a>
+    
+                                                    </div>
+    
+                                                    <a href="" class="dropdown-item">Men</a>
+                                                    <div class="dropright">
+                                                        <a href="" class="dropdown-item">T-shirts&Polos</a>
+                                                        <a href="" class="dropdown-item">Shoes&Boots</a>
+                                                        <a href="" class="dropdown-item">Jeans</a>
+                                                        <a href="" class="dropdown-item">Coats</a>
+                                                    </div>
+    
+                                                    <a href="" class="dropdown-item">Kids</a>
+                                                    <div class="dropright">
+                                                        <a href="" class="dropdown-item">Top</a>
+                                                        <a href="" class="dropdown-item">Pants&Shorts</a>
+                                                        <a href="" class="dropdown-item">Dresses</a>
+                                                        <a href="" class="dropdown-item">Skirts</a>
+                                                        <a href="" class="dropdown-item">Set&Body</a>
+                                                    </div>
+                                                    <a href="" class="dropdown-item">Accessories</a>
+    
+                                                    <div class="dropright">
+                                                        <a href="" class="dropdown-item">Watches</a>
+                                                        <a href="" class="dropdown-item">Bags&Wallet</a>
+                                                        <a href="" class="dropdown-item">Sunglasses</a>
+                                                        <a href="" class="dropdown-item">Belts&Hats</a>
+                                                    </div>
+                                                    <a href="" class="dropdown-item">Electronics</a>
+                                                    <a href="" class="dropdown-item">Jewellery</a>
+                                                    <a href="" class="dropdown-item">Sports</a>
+                                                    <a href="" class="dropdown-item">Motors</a>
+                                                </div>
+                                            </button>
+                                        </div>
+                                        <input type="text" class="inputt" name="" id="" placeholder="Type to search..">
+                                        <button type="button" class="search-icon"><i class="fas fa-search"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+    
+                    </div>
+                </div>
+                <div class="app-menu">
+    
+                    <div class="container">
+                        <nav class="navbar ">
+                            <ul class="navbar-nav">
+                                <li class="nav-item"><a href="../home/home.html" class="nav-link">Home</a></li>
+                                <li class="nav-item" id="fashion-item"><a href="#" class="nav-link">Fashion <i class="fas fa-caret-down"></i></a></li>
+                                <li class="nav-item"><a href="../Jewellery/jewellery.html" class="nav-link">Jewellery</a></li>
+                                <li class="nav-item"><a href="../Jewellery/jewellery.html" class="nav-link">Electronics</a></li>
+                                <li class="nav-item"><a href="../Jewellery/jewellery.html" class="nav-link">Sports</a></li>
+                                <li class="nav-item"><a href="../Jewellery/jewellery.html" class="nav-link">Motors</a></li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                        Pages
+                                    </a>
+                                    <div class="dropdown-menu dropdown-menu-right">
+                                        <a class="dropdown-item" href="#">All products</a>
+                                        <a class="dropdown-item" href="#">Product detail</a>
+                                        <a class="dropdown-item" href="#">Contact</a>
+                                        <a class="dropdown-item" href="#">Sign in</a>
+                                        <a class="dropdown-item" href="#">404 Error</a>
+                                        <a href="" style="color:black;margin-left: 23px;" class="dropdown-toggle dropdown dropright"
+                                            data-toggle="dropdown"> Others</a>
+                                        <div class="dropdown-menu dropright">
+                                            <a href="" class="dropdown-item">External link</a>
+                                            <a href="" class="dropdown-item">Menu item</a>
+                                            <a href="" class="dropdown-item">Menu item</a>
+                                            <a href="" class="dropdown-item">Menu item</a>
+    
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
+                            </ul>
+                        </nav>
+                        <div class="row fashiondropdown">
+                            <div class="col-lg">
+                                <ul>
+                                    <li class="category"><a href="">Women</a></li>
+                                    <li><a href="">Dresses&Skirts</a></li>
+                                    <li><a href="">JAckets</a></li>
+                                    <li><a href="">Tops&Blouses</a></li>
+                                    <li><a href="">Shoe&Boots</a></li>
+                                    <li><a href="">Knitwear</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg">
+                                <ul>
+                                    <li class="category"><a href="">Men</a></li>
+                                    <li><a href="">T-shirt&Polos</a></li>
+                                    <li><a href="">Shoe&Boots</a></li>
+                                    <li><a href="">Jeans</a></li>
+                                    <li><a href="">Coats</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg">
+                                <ul>
+                                    <li class="category"><a href="">Kids</a></li>
+                                    <li><a href="">Tops</a></li>
+                                    <li><a href="">Pants&Shorts</a></li>
+                                    <li><a href="">Dresses</a></li>
+                                    <li><a href="">Skirts</a></li>
+                                    <li><a href="">Set&Body</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg">
+                                <ul>
+                                    <li class="category"><a href="">Accesories</a></li>
+                                    <li><a href="">Watches</a></li>
+                                    <li><a href="">Bags&Wallet</a></li>
+                                    <li><a href="">Sunglasses</a></li>
+                                    <li><a href="">Belts&Hats</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg">
+                                <img src="../home/img/user/mega_menu_img.png" alt="">
+                                <button class="shopnow">Shop Now</button>
+                                <button class="off50"> 50% Off</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+    
+            <!-- color-panel -->
+    
+            <div class="palet d-flex flex-row">
+                <div class="palet-icon"> <i class="fas fa-palette"></i> </div>
+                <div class="colors d-flex flex-column">
+                    <div class="green"></div>
+                    <div class="blue"></div>
+                    <div class="red"></div>
+                    <div class="pink"></div>
+                    <div class="puple"></div>
+                    <div class="grey"></div>
+                </div>
+            </div>
+
+            <!-- maincontent -->
+
+            <div class="container main-content">
+                <div class="row">
+                    <div class="col-12">
+                            <i class="fas fa-home"></i> Homepage // <b>CART</b>
+                    </div>
+                </div>
+                <button class="item">
+                    <b>                    YOU HAVE NO ITEMS IN YOUR SHOPPING CHART.
+                        </b>
+                </button>
+                <br>
+                <button class="shopnow"><b>Continue shopping</b></button>
+            </div>
+             <!-- footer -->
+
+        <div class="footer">
+                <div class="container">
+                    <div class="subscribe row">
+                        <div class="col-lg-6 col-md-12 yazi">
+                            <h2><b>Subscribe our Newsletter</b></h2>
+                            <p>Stay up to date with our latest new and products</p>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control" placeholder="Your email adress.." aria-label="Your email adress.."
+                                    aria-describedby="basic-addon2">
+                                <div class="input-group-append">
+                                    <span class="input-group-text" id="basic-addon2">Subscribe</span>
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div>
+                    <div class="row withmap">
+                        <div class="col-lg-6 col-md-12">
+                            <div class="row ">
+                                <div class="col-5 links">
+                                    <ul>
+                                        <li>
+                                            <h5><b>USEFUL LINKS
+                                                </b></h5>
+                                        </li>
+                                        <li><a href="#"> <b>My Account</b></a></li>
+                                        <li><a href="#"><b> Contact</b> </a></li>
+                                        <li><a href="#"> <b>Compare</b></a></li>
+                                        <li><a href="#"><b>Wishlist</b></a></li>
+                                        <li><a href="../Checkout/chechout.html"> <b>Checkout</b></a></li>
+                                        <li><a href="#"><b>FAQ</b></a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-7 info">
+                                    <ul>
+                                        <li>
+                                            <h5><b>CONTACT INFORMATION</b></h5>
+                                        </li>
+                                        <li>
+                                            <p><b><i class="fas fa-map-marker-alt"></i>2903 Avenue Z, Brooklyn, NY
+                                                </b></p>
+                                        </li>
+                                        <li>
+                                            <p><b><i class="fas fa-phone"></i>(212) 457-2308</b></p>
+                                        </li>
+                                        <li>
+                                            <p><b><i class="far fa-envelope"></i>contact@emporium.com</b></p>
+                                        </li>
+                                        <li>
+                                            <p><b><i class="far fa-clock"></i>Mon - Sun / 9:00AM - 8:00PM</b></p>
+                                        </li>
+                                        <li>
+                                            <p><b><i class="fas fa-directions"></i><a href="">
+                                                        Get directions</a></b></p>
+                                        </li>
+                                        <li>
+                                            <p><b><i class="fas fa-bus"></i>Routes to us</b></p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 map ">
+                            <div class="mapouter">
+                                <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=university%20of%20san%20francisco&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net">embedgooglemap.net</a></div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="ending row">
+                        <div class="col-6">
+    
+                            Copyright © 2018 All Rights Reserved
+    
+                        </div>
+                        <div class="col-6 d-flex flex-row-reverse">
+    
+                            <b>ThemeSeason</b>
+                            <p> Designed & Developed by
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script src="shoppingchart.js"></script>
+</body>
+</html>
